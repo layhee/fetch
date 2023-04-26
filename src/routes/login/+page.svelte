@@ -1,13 +1,14 @@
 <script lang="ts">
 	import type { ActionData } from './$types';
+	import { onMount } from 'svelte';
 	export let form: ActionData;
 </script>
 
-<div class="max-w-lg mx-auto flex-column">
-	<h1 class="text-3xl text-white font-medium">Login</h1>
+<div class="max-w-xxl mx-auto flex-column text-center">
+	<h1 class="text-6xl my-4 text-blue-600 font-medium">Welcome Back!</h1>
 	<div class="max-w-md mx-auto flex p-6 justify-center">
 		<form
-			class="bg-white shadow-md rounded px-8 pt-6 pb-8 mb-4"
+			class="bg-white rounded px-8 pt-6 pb-8 mb-4 text-left"
 			action="?/login"
 			method="POST"
 		>
@@ -46,16 +47,16 @@
 
 			<div class="flex flex-col justify-center">
 				<button
-					class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline my-2 justify-center"
+					class="shadow bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline my-2 justify-center"
 					type="submit">Login</button
 				>
-				<p class="text-xs my-2">Need to sign up?</p>
+				<p class="text-xs my-2 italic">Need to sign up?</p>
 				<a
 					class="text-2xl"
 					href="/reg"
 				>
 					<button
-						class="bg-amber-400 hover:bg-amber-500 text-white font-bold py-2 px-4 text-sm rounded focus:outline-none focus:shadow-outline"
+						class="shadow bg-yellow-500 hover:bg-orange-600 text-white font-bold py-2 px-4 text-sm rounded focus:outline-none focus:shadow-outline"
 					>
 						Register
 					</button>

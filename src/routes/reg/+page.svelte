@@ -4,10 +4,12 @@
 </script>
 
 <div class="max-w-lg mx-auto flex-column">
-	<h1 class="text-3xl text-white font-medium">Register</h1>
+	<h1 class="text-6xl my-4 text-blue-600 font-medium text-center">
+		Join the club!
+	</h1>
 	<div class="max-w-md mx-auto flex justify-center p-6">
 		<form
-			class="bg-white shadow-md rounded px-8 pt-6 pb-8 mb-4"
+			class="bg-white rounded px-8 pt-6 pb-8 mb-4"
 			method="POST"
 			action="?/reg"
 		>
@@ -33,7 +35,7 @@
 			</div>
 
 			{#if form?.user}
-				<p class="error">Username is taken.</p>
+				<p class="text-sm text-orange-600">Username is taken.</p>
 			{/if}
 
 			<div class="flex flex-col justify-center">

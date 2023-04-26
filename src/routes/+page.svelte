@@ -1,25 +1,24 @@
 <script>
 </script>
 
-<h1 class="text-3xl">Waddup homies</h1>
-<h3 class="text-2xl">welcome</h3>
-<a
-	class="text-2xl"
-	href="/login"
+<div
+	class="container flex-col text-center mx-4 my-4 justify-center align-middle"
 >
-	<button
-		class="bg-amber-400 hover:bg-amber-500 text-white font-bold py-2 px-4 text-sm rounded focus:outline-none focus:shadow-outline"
+	<h1
+		class="mb-4 font-extrabold text-gray-900 md:text-5xl lg:text-8xl tracking-tighter"
 	>
-		Log In
-	</button>
-</a>
-<a
-	class="text-2xl"
-	href="/reg"
->
-	<button
-		class="bg-amber-400 hover:bg-amber-500 text-white font-bold py-2 px-4 text-sm rounded focus:outline-none focus:shadow-outline"
-	>
-		Register
-	</button>
-</a>
+		<span
+			class="text-transparent bg-clip-text bg-gradient-to-r to-sky-400 from-pink-600"
+			>Waddup</span
+		> Homies!
+	</h1>
+	<h2 class="text-4xl font-normal text-gray-800">
+		welcome to the club players
+	</h2>
+</div>
+
+<style>
+	h2 {
+		font-family: loos-extended, sans-serif;
+	}
+</style>
